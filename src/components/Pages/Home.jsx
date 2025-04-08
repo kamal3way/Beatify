@@ -35,8 +35,8 @@ function getCurrPage(pathName) {
                 return <TrendingSong/>
             case "/home/ArtistTopTracks":
                 return <ArtistTopTracks/>
-           case "/home/artist":
-                return <Artist/>
+           //case "/home/artist":
+             //   return <Artist/>
         default:
             if (pathName.startsWith("/home/playlist/")) {
                 return <Playlist/>
